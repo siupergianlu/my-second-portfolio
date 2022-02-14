@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.page {
+  height: 1100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  margin: 1% auto;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #33cc33;
+}
+
+.brand {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 5%;
+}
+
+.photo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10%;
+}
+.photo img {
+  width: 70%;
+  max-width: 500px;
+}
+
+.resumee {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.biography {
+  display: flex;
+  width: 70%;
+  text-align: justify;
+  margin: 10px auto;
+  line-height: 1.5;
+}
+
+.biography span {
+  color: #33cc33;
+}
+
+.biography a,
+.resumee a {
+  text-decoration: none;
+  color: #33cc33;
+}
+
+.biography a:hover,
+.resumee a:hover {
+  color: #1aa01a;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-logo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-logo svg {
+  height: 100px;
+  fill: #ffffff;
+}
+
+.skill {
+  margin: 10px;
+}
+.footer {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer svg {
+  fill: #ffffff;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer svg:hover {
+  fill: #33cc33;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  .photo img {
+    max-width: 350px;
+  }
+
+  .biography {
+    width: 60%;
+    max-width: 580px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .photo-and-bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 5%;
+  }
+
+  .photo {
+    max-width: 550px;
+    margin-top: 3%;
+  }
+  .photo img {
+    max-width: 350px;
+  }
+
+  .biography {
+    width: 50%;
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-top: 3%;
+  }
+
+  .skills-header {
+    margin-top: 100px;
+  }
+
+  .footer {
+    margin-top: 60px;
+  }
+}

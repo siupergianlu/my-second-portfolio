@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  width: 80%;
+  height: 100px;
+  margin: 1% auto;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #33cc33;
+}
+
+.brand {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 5%;
+}
+
+.hero {
+  width: 80%;
+  margin: 10% auto 0 auto;
+  height: auto;
+}
+
+.hero-content {
+  color: #33cc33;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 300%;
+  font-weight: bolder;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  max-width: 90%;
+}
+
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer svg {
+  fill: #ffffff;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer svg:hover {
+  fill: #33cc33;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 681px) {
+  .logo img {
+    max-width: 490px;
+  }
+
+  .hero {
+    margin-top: 5%;
+  }
+
+  .hero-content h1 {
+    font-size: 400%;
+  }
+}

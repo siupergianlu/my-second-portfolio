@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: #262626;
+  color: #ffffff;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  position: relative absolute;
+  width: 80%;
+  height: 100px;
+  margin: 1% auto;
+}
+
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #33cc33;
+}
+
+.brand {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 5%;
+}
+
+.email {
+  color: #33cc33;
+  display: flex;
+  justify-content: center;
+}
+.form-header {
+  width: 75%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.message-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact-form {
+  height: 100%;
+  width: 100%;
+  margin: 30px auto 0 auto;
+}
+
+.form-row {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.form-row input {
+  width: 80%;
+  height: 30px;
+  font-family: "Kanit", sans-serif;
+  margin: 0 auto;
+}
+
+.form-row textarea {
+  width: 80%;
+  height: 100px;
+  resize: none;
+  font-family: "Kanit", sans-serif;
+}
+
+.form-row button {
+  width: 40%;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+}
+
+button:hover {
+  width: 43%;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #33cc33;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer svg {
+  fill: #ffffff;
+  height: 30px;
+  margin: 10px;
+}
+
+.footer svg:hover {
+  fill: #33cc33;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 601px) {
+  .form {
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .email {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-height: 701px) {
+  .form {
+    margin-top: 8%;
+  }
+}
