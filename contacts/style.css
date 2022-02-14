@@ -112,22 +112,20 @@ button:hover {
   background-color: #33cc33;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
+.social {
   width: 70%;
   margin-left: 15%;
   display: flex;
   justify-content: center;
 }
 
-.footer svg {
+.social svg {
   fill: #ffffff;
   height: 30px;
   margin: 10px;
 }
 
-.footer svg:hover {
+.social svg:hover {
   fill: #33cc33;
   cursor: pointer;
 }
@@ -147,6 +145,6 @@ button:hover {
 
 @media screen and (min-height: 701px) {
   .form {
-    margin-top: 8%;
+    margin-top: 3%;
   }
 }
