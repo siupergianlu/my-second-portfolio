@@ -18,10 +18,13 @@ body {
 }
 
 .header {
+  background-color: #262626;
   display: flex;
+  top: 0%;
   width: 80%;
   height: 100px;
   margin: 1% auto;
+  position: sticky;
 }
 
 .header a {

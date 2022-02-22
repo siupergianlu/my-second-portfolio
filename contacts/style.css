@@ -97,15 +97,16 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
-.form-row button {
+.form-row > #button {
   width: 40%;
+  height: auto;
   padding: 10px;
   margin: 20px auto;
   font-size: 16px;
   font-family: "Kanit", sans-serif;
 }
 
-button:hover {
+#button:hover {
   width: 43%;
   cursor: pointer;
   font-size: 18px;
